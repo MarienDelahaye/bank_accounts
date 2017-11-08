@@ -70,7 +70,7 @@ header table {
 footer {
   box-sizing: border-box;
   height: 100px;
-  background-color: #eee;
+  background-color: white;
   border-top: 1px solid #e0e0e0;
   padding-top: 35px;
 }
@@ -81,6 +81,18 @@ footer {
   <body>
   <header class="mui-appbar mui--z1">
   <div class="mui-container">
+  <div class="mui-dropdown">
+  <button class="mui-btn mui-btn--primary" data-mui-toggle="dropdown">
+    Dropdown
+    <span class="mui-caret"></span>
+  </button>
+  <ul class="mui-dropdown__menu">
+    <li><a href="#">Option 1</a></li>
+    <li><a href="#">Option 2</a></li>
+    <li><a href="#">Option 3</a></li>
+    <li><a href="#">Option 4</a></li>
+  </ul>
+</div>
   <table>
     <tr class="mui--appbar-height">
       <td class="mui--text-title">Bank accounts</td>
@@ -92,6 +104,7 @@ footer {
     </tr>
   </table>
 </div>
+
 
 </header>
 <div id="content-wrapper" class="mui--text-center">
@@ -106,7 +119,7 @@ footer {
 </div>
 <footer>
   <div class="mui-container mui--text-center">
-    Made with ♥ by <a href="https://www.muicss.com">MUICSS</a>
+    Made with ♥ by <a href="">Marien Delahaye</a>
   </div>
 </footer>
   </body>
