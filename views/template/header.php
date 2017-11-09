@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//cdn.muicss.com/mui-0.9.28/css/mui.min.css" rel="stylesheet" type="text/css" />
     <script src="//cdn.muicss.com/mui-0.9.28/js/mui.min.js"></script>
-    <link rel="stylesheet" href="views/css/main.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
     <title>Bank accounts</title>
   </head>
   <header class="mui-appbar mui--z1">
