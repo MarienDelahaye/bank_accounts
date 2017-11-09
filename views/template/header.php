@@ -5,22 +5,25 @@
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//cdn.muicss.com/mui-0.9.28/css/mui.min.css" rel="stylesheet" type="text/css" />
-    <script src="//cdn.muicss.com/mui-0.9.28/js/mui.min.js"></script>
-    <link rel="stylesheet" href="assets/css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <title>Bank accounts</title>
-  </head>
-  <header class="mui-appbar mui--z1">
-  <div class="mui-container">
-  <table>
-    <tr class="mui--appbar-height">
-      <td class="mui--text-title">Bank accounts</td>
-      <td class="mui--text-right">
-        <ul class="mui-list--inline mui--text-body2">
-          <li><a href="#">Signup</a></li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</div>
-</header>
+ <!-- A grey horizontal navbar that becomes vertical on small screens -->
+ <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+ 
+   <!-- Links -->
+   <ul class="navbar-nav">
+     <li class="nav-item">
+       <a class="nav-link" href="#">Link 1</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Link 2</a>
+     </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Link 3</a>
+     </li>
+   </ul>
+ 
+ </nav> 

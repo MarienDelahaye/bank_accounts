@@ -10,11 +10,13 @@
     <title>Signup</title>
 </head>
 <body>
+<center>
 <form action="action.php" method="post">
-<input type="text" name="first_name" />
- <input type="text" name="last_name" />
+<input type="text" name="first_name"><br>
+ <input type="text" name="last_name"><br>
  <input type="submit" value="OK">
 </form>
+</center>
 </body>
 </html>
 <?php
