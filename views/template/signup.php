@@ -12,13 +12,12 @@
 <body>
 <center>
 <form action="action.php" method="post">
-<input type="text" name="first_name"><br>
- <input type="text" name="last_name"><br>
+<input type="text" name="first_name" placeholder="First name"><br>
+ <input type="text" name="last_name" placeholder="Last name"><br>
+ <input type="text" name="email" placeholder="Email"><br>
+ <input type="text" name="mobile" placeholder="Phone number"><br>
  <input type="submit" value="OK">
 </form>
 </center>
 </body>
 </html>
-<?php
-include("footer.php");
-?>
