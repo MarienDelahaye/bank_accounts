@@ -16,19 +16,19 @@ class DB {
         $this->db = "bank_accounts";
         $this->user = "root";
         $this->pass = "marien_delahaye";
-        $this->link = mysql_connect($this->host, $this->user, $this->pass);
-        mysql_select_db($this->db);
+        $this->link = mysqli_connect($this->host, $this->user, $this->pass);
+        mysqli_select_db($this->db);
       // register_shutdown_function($this->close);  
     }
     // Classes method
     function query($query) {
-        $this->result = mysql_query ( $query, $this->link );
+        $this->result = mysqli_query ( $query, $this->link );
     }
     function fetch() {
-        return mysql_fetch_array ( $this->result, MYSQL_ASSOC );
+        return mysqli_fetch_array ( $this->result, MYSQL_ASSOC );
     }
     function close() {
-        mysql_close($this->link);
+        mysqli_close($this->link);
     }
 }
  ?>
