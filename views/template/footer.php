@@ -1,0 +1,4 @@
+</body>
+<footer id="footer">
+<p class="h5 text-muted">Sticky Footer</p>
+</footer>

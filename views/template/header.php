@@ -10,20 +10,15 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <title>Bank accounts</title>
- <!-- A grey horizontal navbar that becomes vertical on small screens -->
+<header>
  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
  
    <!-- Links -->
    <ul class="navbar-nav">
      <li class="nav-item">
-       <a class="nav-link" href="#">Link 1</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Link 2</a>
-     </li>
-     <li class="nav-item">
-       <a class="nav-link" href="#">Link 3</a>
+       <a class="nav-link" href="views/template/signup.php">Signup</a>
      </li>
    </ul>
- 
- </nav> 
+ </nav>
+ </header>
+ <body>
